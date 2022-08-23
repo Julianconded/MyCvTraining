@@ -1,0 +1,214 @@
+html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#212529;
+    font-family:'Poppins';
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 9px;
+}
+
+.image-header{
+    min-width: 91px;
+    max-height: 90px;
+}
+
+nav{
+    margin: 20px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul{
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+a:hover{
+    color:#FFB742
+}
+
+button{
+    margin: 20px;
+    font-weight: 800;
+    height: 50px;
+    width: 100px;
+    background-color:#FFB742;
+    color: black;
+    border-radius: 35px;
+    top: 23.060546875px;
+    padding: 12px, 26px, 12px, 26px;
+    left: 1271px;
+    border: none;
+}
+
+.button__menu{
+    width: 100px;
+    min-width: 53px;
+}
+
+.experience{
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    color: #FFB742;
+    width: 130px;
+    height: 40px;
+}
+
+
+main{
+    font-family: "Inter";
+    text-align: center;
+    flex-grow: 1;
+}
+
+.title{
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 50px
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box-general{
+    width:360px;
+    height: 385px;
+    background-color:#FFFFFF;
+    margin-right:60px ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.box-experience{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-experience-information{
+    margin: 17px 0 0 12px;
+    text-align: initial;
+}
+
+.box-experience-information h3{
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.box-experience-information span{
+    color: black;
+}
+
+.box-experience img{
+    margin:25px;
+}
+.information{
+    text-align: initial;
+    margin: 20px 10px 20px 10px;
+    color: black;
+}
+
+footer{
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    height: 214px;
+    margin-top: 115px;
+    padding: 34px;
+}
+
+.list_footer{
+    list-style: none;
+    color: #7B7B7B;
+    font-size:18px
+}
+
+p{
+    font-weight: 700;
+    line-height: 100%;
+}
+
+footer{
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    height: 214px;
+    margin-top: 115px;
+    padding: 34px;
+    width: 100%;
+}
+
+
+.email__input--button{
+    margin: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__email--input > input{
+    /* -10 px since we are adding a margin-left of 20 px therefoe 20/2 = 10*/
+    width: calc(100% - 40px - 10px);
+    margin-left: 20px;
+    height: 100%;
+    background: none;
+    color: #7B7B7B;
+    font-weight: 700;
+    line-height: 100%;
+    border: none;
+}
+
+.footer__email_input > input::placeholder{
+    color: #7B7B7B;
+}
+
+input{
+    outline: none;
+}
+
+@media (max-width:640px){
+    footer {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    footer>*{
+        margin-bottom: 15px;
+    }
+
+}
