@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Poppins:wght@200;400;500;700&family=Work+Sans:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/Styles.css">
+    
     <title>My CV</title>
 </head>
-<body>
+<body class="body">
     <header>
-        <img src="file:///D:/Pedro/Frame%207.svg" alt="Logo">
+        <img src="./img/Frame%207.svg" alt="Logo">
             <nav>
                 <ul>    
                 <li><a href="home.html"> Home</a></li>
@@ -21,33 +23,39 @@
                 <li><a href="Contact.HTML">Contact</a></li>
                 </ul>
             </nav>
-        <button>Hire me</button>
+        <button id="dark">Change Mode</button>
+        
     </header>
-        <main>            
-            <h3>Hi, I'm <span id="NombreAmarillo">Julian Conde</span></h3>
-            <h1>Bilingual Electronic Automation Student</h1>
-            <h5 id="SubtituloHome">I Will Do My Best To Learn About Development</h5>
-            <img src="file:///D:/Pedro/avataaars%201.svg" alt="avatar">
+        <main class="main">           
+           
+            <h3 class="titulo">Hi, I'm <span id="NombreAmarillo">Julian Conde</span></h3>
+            <h1 class="tituloSeg">Bilingual Electronic Automation Student</h1>
+            <h5 class="SubtituloHome">I Will Do My Best To Learn About Development</h5>
+            <img src="./img/avataaars%201.svg" alt="avatar">
         </main>
 
 
     
     <section>
-        <div class="CajaGris">
-            <img src="file:///D:/Pedro/Group%206.svg" alt="Logo">
+        <li> 
+            <div class="CajaGris">
+            <img src="./img/Group%206.svg" alt="Logo">
             <span>5+</span>
             <span>Years of Experience</span></div>
-
-        <div class="CajaGris">
-            <img src="file:///D:/Pedro/Group%206%20(1).svg" alt="Logo">
+        </li>
+        <li>
+            <div class="CajaGris2">
+            <img src="./img/Group%206%20(1).svg" alt="Logo">
             <span>3+</span>
             <span>Completed Projects</span></div>
-
-        <div class="CajaGris">
-            <img src="file:///D:/Pedro/Group%206%20(2).svg" alt="Logo">
+        </li>    
+        <li>
+            <div class="CajaGris3">
+            <img src="./img/Group%206%20(2).svg" alt="Logo">
             <span>200+</span>
             <span>Happy Clients</span>
-        </div>
+             </div>
+        </li>
     </section>
 
     <footer>
@@ -83,7 +91,8 @@
         </div>
     </footer>
 
-
+    <script src="./JS/js.js"></script>
     
 </body>
+
 </html>

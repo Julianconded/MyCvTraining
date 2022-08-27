@@ -5,9 +5,9 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     background-color: #212529;
-    color: #ffffff;
+    color: white;
     padding: 10px;   
 }
 
@@ -35,6 +35,15 @@ button{
     background-color: #292b2e;
 }
 
+.CajaGris2{
+    background-color: #292b2e;
+
+}
+
+.CajaGris3{
+    background-color: #292b2e;
+}
+
 footer{
     display: flex;
     background-color: #1c1c1c;
@@ -47,7 +56,7 @@ main{
 }
 
 h3{
-    font-family: 'Inter';
+    font-family: 'inter';
     font-size: 32px;
     color: white;
 }
@@ -58,10 +67,29 @@ h1{
     color: white;
 }
 
+h5{
+    font-family: 'inter';
+    font-size: 15px;
+    color: white;
+}
+
+h6{
+    font-family: 'inter';
+    font-size: 12px;
+    color: white;
+    margin: 10px;
+}
+
+#tituloSeg{
+    font-family: 'inter';
+    font-size: 40px;
+    color: white;
+}
+
 #SubtituloHome{
     font-family: 'inter';
     font-size: 12px;
-    color: #ffffff;
+    color: white;
 }
 
 #NombreAmarillo{
@@ -93,4 +121,10 @@ footer ul{
 
 footer h3{
     margin: 15px;
+}
+
+.change-dark {
+    color: black;
+    background-color: white;
+    font-family: 'Poppins','Inter','sans-serif';   
 }
