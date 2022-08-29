@@ -33,16 +33,55 @@ button{
 
 .CajaGris{
     background-color: #292b2e;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-between;
 }
 
-.CajaGris2{
-    background-color: #292b2e;
-
+.cajas{
+    display: flex;
+    justify-content: space-between;
 }
 
-.CajaGris3{
-    background-color: #292b2e;
+.splittext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.trabajos{   
+    height: 50px;
+    width: 350px;
+    margin: 20px;
+    padding: 1px;
+    
+}
+
+.experiencia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exper{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    margin: 20px;
+    padding: 40px;
+    color: white;
+    justify-content: center;
+}
+
+
 
 footer{
     display: flex;
@@ -126,5 +165,11 @@ footer h3{
 .change-dark {
     color: black;
     background-color: white;
-    font-family: 'Poppins','Inter','sans-serif';   
+    font-family: 'Poppins';   
+}
+
+body.change-dark {
+    color: black;
+    background-color: white;
+    font-family: 'Poppins';   
 }
